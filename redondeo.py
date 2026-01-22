@@ -20,8 +20,9 @@ def calcular_precio():
         div_cuota, div_imp = configuracion[opcion]
         # Realizamos la cuenta de fondo
         resultado = (precio_lista / div_cuota) / div_imp
-        print(f"\nResultado final (Amarillo): {resultado:.2f}")
+        print(f"\nResultado final: {resultado:.2f}")
     else:
         print("Opción no válida.")
+
 
 calcular_precio()
