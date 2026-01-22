@@ -38,7 +38,7 @@ if precio_lista > 0:
     # La misma cuenta que hacés en el Excel
     resultado = (precio_lista / div_cuota) / div_imp
     
-    st.markdown("### Resultado Neto (Marcado en Amarillo):")
+    st.markdown("### Resultado Neto:")
     st.success(f"## $ {resultado:,.2f}")
     
     # Detalle técnico opcional
@@ -48,4 +48,5 @@ else:
     st.info("Ingresá un precio mayor a cero para ver el resultado.")
 
 st.markdown("---")
+
 st.caption("Herramienta desarrollada para gestión de Mercado Libre y Lumina Web.")
