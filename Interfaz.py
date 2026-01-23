@@ -17,7 +17,8 @@ opcion = st.selectbox("Seleccioná el Canal / Cantidad de Cuotas:", [
     "1 Cuota (GK9, GK26, PRO) (Divisor 1.105)", 
     "6 Cuotas (GK9, GK26, PRO) (Divisores 1.35 / 1.105)", 
     "9 Cuotas (GK9, GK26, PRO) (Divisores 1.58 / 1.105)",
-    "WEB TRANSFERENCIA (Divisores 1.112 / 1.21)"
+    "6 CUOTAS (WEB LUMINA)": (1.39, 1.21),
+    "TRANSFERENCIA (WEB LUMINA)": (1.112, 1.21)
 ])
 
 # Diccionario con la lógica de fondo (coeficientes de la imagen)
@@ -28,7 +29,8 @@ configuracion = {
     "1 Cuota (GK9, GK26, PRO) (Divisor 1.105)": (1.105, 1.0),
     "6 Cuotas (GK9, GK26, PRO) (Divisores 1.35 / 1.105)": (1.35, 1.105),
     "9 Cuotas (GK9, GK26, PRO) (1.58 / 1.105)": (1.58, 1.105),
-    "WEB TRANSFERENCIA (Divisores 1.112 / 1.21)": (1.112, 1.21)
+    "6 CUOTAS (WEB LUMINA)": (1.39, 1.21),
+    "TRANSFERENCIA (WEB LUMINA)": (1.112, 1.21)
 }
 
 # Realizar el cálculo automáticamente
@@ -50,3 +52,4 @@ else:
 st.markdown("---")
 
 st.caption("Herramienta desarrollada para gestión de Mercado Libre y Lumina Web.")
+
