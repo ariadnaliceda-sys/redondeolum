@@ -7,7 +7,9 @@ def calcular_precio():
         "9": (1.58, 1.21),
         "1 (GK9, GK26, PRO)": (1.105, 1.0),
         "6 (GK9, GK26, PRO)": (1.35, 1.105),
-        "9 (GK9, GK26, PRO)": (1.58, 1.105)
+        "9 (GK9, GK26, PRO)": (1.58, 1.105),
+        "6 CUOTAS (WEB LUMINA)": (1.39, 1.21),
+        "TRANSFERENCIA (WEB LUMINA)": (1.112, 1.21)
     }
 
     print("--- Calculadora de Precios Lumina ---")
@@ -26,3 +28,4 @@ def calcular_precio():
 
 
 calcular_precio()
+
