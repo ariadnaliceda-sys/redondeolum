@@ -9,6 +9,7 @@ def calcular_precio():
         "6 (GK9, GK26, PRO)": (1.35, 1.105),
         "9 (GK9, GK26, PRO)": (1.58, 1.105),
         "6 CUOTAS (WEB LUMINA)": (1.39, 1.21),
+        "6 CUOTAS PRO (WEB LUMINA)": (1.39, 1.105),
         "TRANSFERENCIA (WEB LUMINA)": (1.112, 1.21)
     }
 
