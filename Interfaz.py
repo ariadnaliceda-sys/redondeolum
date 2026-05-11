@@ -12,11 +12,11 @@ precio_lista = st.number_input("Ingresá el Precio de Lista:", min_value=0.0, st
 # Selector de opciones basado en tu Excel
 opcion = st.selectbox("Seleccioná el Canal / Cantidad de Cuotas:", [
     "1 Cuota (Divisor 1.21)", 
-    "6 Cuotas (Divisores 1.35 / 1.21)", 
-    "9 Cuotas (Divisores 1.58 / 1.21)", 
+    "6 Cuotas (Divisores 1.20 / 1.21)", 
+    "9 Cuotas (Divisores 1.30 / 1.21)", 
     "1 Cuota (GK9, GK26, PRO) (Divisor 1.105)", 
-    "6 Cuotas (GK9, GK26, PRO) (Divisores 1.35 / 1.105)", 
-    "9 Cuotas (GK9, GK26, PRO) (Divisores 1.58 / 1.105)",
+    "6 Cuotas (GK9, GK26, PRO) (Divisores 1.20 / 1.105)", 
+    "9 Cuotas (GK9, GK26, PRO) (Divisores 1.30 / 1.105)",
     "6 CUOTAS (WEB LUMINA) (Divisores 1.39 / 1.21)",
     "6 CUOTAS PRO (WEB LUMINA) (Divisores 1.39 / 1.105)",
     "TRANSFERENCIA (WEB LUMINA) (Divisores 1.112 / 1.21)"
@@ -25,11 +25,11 @@ opcion = st.selectbox("Seleccioná el Canal / Cantidad de Cuotas:", [
 # Diccionario con la lógica de fondo (coeficientes de la imagen)
 configuracion = {
     "1 Cuota (Divisor 1.21)": (1.21, 1.0),
-    "6 Cuotas (Divisores 1.35 / 1.21)": (1.35, 1.21),
-    "9 Cuotas (Divisores 1.58 / 1.21)": (1.58, 1.21),
+    "6 Cuotas (Divisores 1.20 / 1.21)": (1.20, 1.21),
+    "9 Cuotas (Divisores 1.39 / 1.21)": (1.30, 1.21),
     "1 Cuota (GK9, GK26, PRO) (Divisor 1.105)": (1.105, 1.0),
-    "6 Cuotas (GK9, GK26, PRO) (Divisores 1.35 / 1.105)": (1.35, 1.105),
-    "9 Cuotas (GK9, GK26, PRO) (Divisores 1.58 / 1.105)": (1.58, 1.105),
+    "6 Cuotas (GK9, GK26, PRO) (Divisores 1.35 / 1.105)": (1.20, 1.105),
+    "9 Cuotas (GK9, GK26, PRO) (Divisores 1.58 / 1.105)": (1.30, 1.105),
     "6 CUOTAS (WEB LUMINA) (Divisores 1.39 / 1.21)": (1.39, 1.21),
     "6 CUOTAS PRO (WEB LUMINA) (Divisores 1.39 / 1.105)": (1.39, 1.105),
     "TRANSFERENCIA (WEB LUMINA) (Divisores 1.112 / 1.21)": (1.112, 1.21)
