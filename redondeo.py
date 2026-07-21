@@ -5,12 +5,13 @@ def calcular_precio():
         "1": (1.21, 1.0), # El 1.0 es porque en la imagen de 1 cuota solo divide por 1.21
         "6": (1.20, 1.21),
         "9": (1.30, 1.21),
+        "18": (1.45, 1.21),
         "1 (GK9, GK26, PRO)": (1.105, 1.0),
         "6 (GK9, GK26, PRO)": (1.20, 1.105),
         "9 (GK9, GK26, PRO)": (1.30, 1.105),
-        "6 CUOTAS (WEB LUMINA)": (1.39, 1.21),
-        "6 CUOTAS PRO (WEB LUMINA)": (1.39, 1.105),
-        "TRANSFERENCIA (WEB LUMINA)": (1.112, 1.21)
+        "6 CUOTAS (WEB LUMINA)": (1.25, 1.21),
+        "6 CUOTAS PRO (WEB LUMINA)": (1.25, 1.105),
+        "TRANSFERENCIA (WEB LUMINA)": (1.10, 1.21)
     }
 
     print("--- Calculadora de Precios Lumina ---")
