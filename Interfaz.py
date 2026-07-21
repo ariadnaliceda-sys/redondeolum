@@ -14,7 +14,7 @@ opcion = st.selectbox("Seleccioná el Canal / Cantidad de Cuotas:", [
     "1 Cuota (Divisor 1.21)", 
     "6 Cuotas (Divisores 1.20 / 1.21)", 
     "9 Cuotas (Divisores 1.30 / 1.21)", 
-    "18 Cuotas (Divisores 1.18 / 1.21)",
+    "18 Cuotas (Divisores 1.45 / 1.21)",
     "1 Cuota (GK9, GK26, PRO) (Divisor 1.105)", 
     "6 Cuotas (GK9, GK26, PRO) (Divisores 1.20 / 1.105)", 
     "9 Cuotas (GK9, GK26, PRO) (Divisores 1.30 / 1.105)",
