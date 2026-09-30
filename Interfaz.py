@@ -39,7 +39,7 @@ div_cuota = configuracion[opcion]
 
 if precio_lista > 0:
     # La misma cuenta que hacés en el Excel
-    resultado = (precio_lista / div_cuota) / div_imp
+    resultado = (precio_lista / div_cuota)
     
     st.markdown("### Resultado Neto:")
     st.success(f"## $ {resultado:,.2f}")
