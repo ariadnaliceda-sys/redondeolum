@@ -35,7 +35,7 @@ configuracion = {
 }
 
 # Realizar el cálculo automáticamente
-div_cuota, div_imp = configuracion[opcion]
+div_cuota = configuracion[opcion]
 
 if precio_lista > 0:
     # La misma cuenta que hacés en el Excel
