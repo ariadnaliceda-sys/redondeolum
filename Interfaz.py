@@ -31,7 +31,7 @@ configuracion = {
     "9 Cuotas (GK9, GK26, PRO) (Divisores 1.30)": (1.30),
     "6 CUOTAS (WEB LUMINA) (Divisores 1.25)": (1.25),
     "6 CUOTAS PRO (WEB LUMINA) (Divisores 1.25)": (1.25),
-    "TRANSFERENCIA (WEB LUMINA) (Divisores 1.10)": (1.10)
+    "TRANSFERENCIA (WEB LUMINA) (Divisores 1.10)": (1.20)
 }
 
 # Realizar el cálculo automáticamente
