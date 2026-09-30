@@ -2,16 +2,14 @@ def calcular_precio():
     # Definimos los coeficientes según la imagen
     # Estructura: 'Nombre': (divisor_cuotas, divisor_impuesto)
     configuracion = {
-        "1": (1.21, 1.0), # El 1.0 es porque en la imagen de 1 cuota solo divide por 1.21
-        "6": (1.20, 1.21),
-        "9": (1.30, 1.21),
-        "18": (1.45, 1.21),
-        "1 (GK9, GK26, PRO)": (1.105, 1.0),
-        "6 (GK9, GK26, PRO)": (1.20, 1.105),
-        "9 (GK9, GK26, PRO)": (1.30, 1.105),
-        "6 CUOTAS (WEB LUMINA)": (1.25, 1.21),
-        "6 CUOTAS PRO (WEB LUMINA)": (1.25, 1.105),
-        "TRANSFERENCIA (WEB LUMINA)": (1.10, 1.21)
+        "6": (1.20),
+        "9": (1.30),
+        "18": (1.45),
+        "6 (GK9, GK26, PRO)": (1.20),
+        "9 (GK9, GK26, PRO)": (1.30),
+        "6 CUOTAS (WEB LUMINA)": (1.25),
+        "6 CUOTAS PRO (WEB LUMINA)": (1.25),
+        "TRANSFERENCIA (WEB LUMINA)": (1.10)
     }
 
     print("--- Calculadora de Precios Lumina ---")
