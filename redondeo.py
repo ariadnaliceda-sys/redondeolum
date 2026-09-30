@@ -1,6 +1,6 @@
 def calcular_precio():
     # Definimos los coeficientes según la imagen
-    # Estructura: 'Nombre': (divisor_cuotas, divisor_impuesto)
+    # Estructura: 'Nombre': (divisor_cuotas)
     configuracion = {
         "6": (1.20),
         "9": (1.30),
@@ -19,9 +19,9 @@ def calcular_precio():
     opcion = input("Seleccione una opción: ")
 
     if opcion in configuracion:
-        div_cuota, div_imp = configuracion[opcion]
+        div_cuota = configuracion[opcion]
         # Realizamos la cuenta de fondo
-        resultado = (precio_lista / div_cuota) / div_imp
+        resultado = (precio_lista / div_cuota)
         print(f"\nResultado final: {resultado:.2f}")
     else:
         print("Opción no válida.")
