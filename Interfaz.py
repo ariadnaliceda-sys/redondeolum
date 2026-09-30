@@ -46,7 +46,7 @@ if precio_lista > 0:
     
     # Detalle técnico opcional
     with st.expander("Ver detalle de la cuenta"):
-        st.write(f"Precio: {precio_lista} / Coeficiente Cuota: {div_cuota} / Coeficiente Impuesto: {div_imp}")
+        st.write(f"Precio: {precio_lista} / Coeficiente Cuota: {div_cuota}")
 else:
     st.info("Ingresá un precio mayor a cero para ver el resultado.")
 
