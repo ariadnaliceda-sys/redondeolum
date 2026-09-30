@@ -27,7 +27,7 @@ configuracion = {
     "6 Cuotas (Divisores 1.20)": (1.20),
     "9 Cuotas (Divisores 1.30)": (1.30),
     "18 Cuotas (Divisores 1.45)": (1.45),
-    "6 Cuotas (GK9, GK26, PRO) (Divisores 1.20): ": (1.20),
+    "6 Cuotas (GK9, GK26, PRO) (Divisores 1.20)": (1.20),
     "9 Cuotas (GK9, GK26, PRO) (Divisores 1.30)": (1.30),
     "6 CUOTAS (WEB LUMINA) (Divisores 1.25)": (1.25),
     "6 CUOTAS PRO (WEB LUMINA) (Divisores 1.25)": (1.25),
